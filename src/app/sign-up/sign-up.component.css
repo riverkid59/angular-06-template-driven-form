@@ -1,0 +1,38 @@
+.containerForm {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.formGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    padding: 20px;
+    height: auto;
+    width: 500px;
+}
+
+.formControl {
+    padding-top: 10px;
+}
+
+.containerControl {
+    width: 70%;
+}
+
+.containerButton {
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+}
+
+.errorMessage {
+    color: red;
+}
